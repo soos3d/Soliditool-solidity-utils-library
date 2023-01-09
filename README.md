@@ -26,7 +26,7 @@ compareStrings("blue", "red") will return false.
     }
 ```
 
-#### pseudoRandom
+#### pseudoRandom()
 
 Function to generate a pseudo-random number. 
 
@@ -39,7 +39,7 @@ Function to generate a pseudo-random number.
     }
 ```
 
-#### findString
+#### findString()
 
 Function to find the index matching a string in an array. This function takes a string as a parameter and loops through an array of strings. It then returns the index of the matching string (if it exists), or the 420 code if it does not exist.
 
@@ -56,7 +56,7 @@ Function to find the index matching a string in an array. This function takes a 
     }
 ```
 
-#### findUint
+#### findUint()
 
 Function to find the index matching a uint in an array. This function takes a uint as a parameter and loops through an array of units. 
 It then returns the index of the matching unit (if it exists) or the 90909090 code if it does not exist.
@@ -73,7 +73,7 @@ It then returns the index of the matching unit (if it exists) or the 90909090 co
     }
 ```
 
-#### findInt
+#### findInt()
 
 Function to find the index matching an int in an array. This function takes an int as a parameter and loops through an array of ints. 
 It then returns the index of the matching int (if it exists) or the 90909090 code if it does not exist.
