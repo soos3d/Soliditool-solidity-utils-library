@@ -4,7 +4,7 @@
 
 ## Overview
 
-This library can help you keeping your code cleaner and avoid rewriting code.
+This library can help you keep your code cleaner and avoid rewriting code.
 
 ### Functions in the library
 
@@ -28,10 +28,9 @@ compareStrings("blue", "red") will return false.
 
 #### pseudoRandom
 
-Function to generate a pseudo random number. 
+Function to generate a pseudo-random number. 
 
-> WARNING: This function does not return a real random value, this function is to be used for testing ONLY and not in production 
-where a real random number is needed.
+> WARNING: This function does not return a real random value; this function is to be used for testing ONLY and not in production where a real random number is needed.
 
 ```sol   
     function pseudoRandom() public view returns (uint) {
@@ -59,8 +58,8 @@ Function to find the index matching a string in an array. This function takes a 
 
 #### findUint
 
-Function to find the index matching a uint in an array. This function takes a uint as a parameter and loops through an array of uints. 
-It then returns the index of the matching uint (if it exists), or the 90909090 code if it does not exist.
+Function to find the index matching a uint in an array. This function takes a uint as a parameter and loops through an array of units. 
+It then returns the index of the matching unit (if it exists) or the 90909090 code if it does not exist.
 
 ```sol  
     function findUint(uint[] memory array, uint _number) internal pure returns (uint) {
@@ -76,8 +75,8 @@ It then returns the index of the matching uint (if it exists), or the 90909090 c
 
 #### findInt
 
-Function to find the index matching a int in an array. This function takes a int as a parameter and loops through an array of ints. 
-It then returns the index of the matching int (if it exists), or the 90909090 code if it does not exist.
+Function to find the index matching an int in an array. This function takes an int as a parameter and loops through an array of ints. 
+It then returns the index of the matching int (if it exists) or the 90909090 code if it does not exist.
 
 ```sol  
     function findInt(int[] memory array, int _number) internal pure returns (uint) {
@@ -127,4 +126,3 @@ contract TryUtils {
     }
 }
 ```
-
