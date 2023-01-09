@@ -7,6 +7,10 @@
   "description": "This Solidity library holds functions that you can use to simplify your smart contracts. For example no more writing loops for extracting indexes from arrays, and you can easily compare strings!",
   "dependencies": {
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soos3d/Soliditool-solidity-utils-library"
+  },
   "devDependencies": {
     "solhint": "^3.3.7",
     "prettier": "^2.8.2",
